@@ -1,0 +1,19 @@
+.main {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+
+    &.hit-me {
+        transition: background-color 500ms ease-in-out;
+        background: green;
+    }
+
+    &.counting {
+        transition: background-color 500ms ease-in-out;
+        background: red;
+    }
+}
+
